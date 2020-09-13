@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tong thu nhap</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<form>
+    <label for="month-salary">Luong thang</label>
+    <input type="text" id="month-salary">
+    <label for="rank">Bac luong</label>
+    <select name="bacluong" id="rank">
+        <option value="1" name="Bac 1">Bac 1</option>
+        <option value="2" name="Bac 2">Bac 2</option>
+    </select>
+    <button type="button" id="btn" onclick="calculate()">Tinh tong thu nhap</button>
+    <br><br>
+    <h3>Tong thu nhap</h3>
+    <h4 id="gross-income"></h4>
+</form>
+</body>
+</html>
